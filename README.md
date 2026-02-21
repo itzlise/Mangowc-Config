@@ -25,3 +25,5 @@
 ##### Super + Shift + F, toggle Fullscreen 
 ##### Super + J/K, move focus between apps
 ##### Super + T, return to tiling mode (no matter which one you are on currently)
+
+*im not responsible for any damage dony by faulty installations, updates or anything else. everything you do is on your own risk*
