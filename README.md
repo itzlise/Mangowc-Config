@@ -11,7 +11,7 @@
 
 ## Installation
 #### Install and Enable Dependencies
-##### ARCH ONLY, REQUIRES YAY **
+##### ARCH ONLY, REQUIRES YAY
 
 *yay -S mangowc-git grim slurp swaybg xdg-desktop-portal xdg-desktop-portal-wlr rofi waybar wl-clipboard dolphin nwg-look wlogout foot ttf-jetbrains-mono-nerd nvim brightnessctl bluetui bluez bluez-utils pulsemixer pipewire pipewire-pulse nvim fastfetch && systemctl --user --now enable pipewire wireplumber && sudo systemctl enable bluetooth && mango*
 
