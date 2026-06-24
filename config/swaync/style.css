@@ -1,0 +1,250 @@
+@define-color bg #1a1b26;
+@define-color bgDark #16161e;
+@define-color fg #a9b1d6;
+@define-color muted #444b6a;
+@define-color cyan #0db9d7;
+@define-color purple #ad9ee6;
+@define-color red #f7768e;
+@define-color yellow #e0af68;
+@define-color blue #7aa2f7;
+
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  border-radius: 0;
+}
+
+.control-center .notification-row:focus,
+.control-center .notification-row:hover {
+  opacity: 1;
+  background: @bg;
+}
+
+.notification-row {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.notification,
+.notification-content,
+.notification-action,
+.notification-default-action,
+.inline-reply-entry,
+.inline-reply-button,
+.widget-title,
+.widget-title>button,
+.widget-dnd,
+.widget-dnd>switch,
+.widget-dnd>switch slider,
+.widget-label>label,
+.widget-buttons-grid,
+.widget-buttons-grid>flowbox>flowboxchild>button,
+.widget-volume,
+.widget-backlight,
+.widget-mpris,
+.widget-mpris>box>button,
+.widget-mpris-player,
+.widget-mpris-album-art {
+  border-radius: 0;
+}
+
+.notification {
+  background: @bg;
+  border: 2px solid @purple;
+  margin: 3px -2px 3px 0;
+}
+
+.close-button {
+  background: @red;
+  color: @bg;
+  text-shadow: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  border-radius: 0;
+  border: none;
+}
+
+.notification:hover .close-button {
+  opacity: 1;
+}
+
+.close-button:hover {
+  background: @red;
+  box-shadow: none;
+  transition: all 0.15s ease-in-out;
+}
+
+.notification-action {
+  border: 2px solid @purple;
+}
+
+.notification-default-action:hover,
+.notification-action:hover {
+  color: @blue;
+  background: @bg;
+}
+
+.inline-reply-entry {
+  background: @bgDark;
+  color: @fg;
+  caret-color: @fg;
+  border: 1px solid @cyan;
+}
+
+.inline-reply-button {
+  margin-top: 4px;
+  margin-left: 4px;
+  background: @bg;
+  border: 1px solid @cyan;
+  color: @fg;
+}
+
+.inline-reply-button:disabled {
+  background: transparent;
+  color: @muted;
+  border: 1px solid transparent;
+}
+
+.inline-reply-button:hover {
+  background: @bg;
+}
+
+.summary {
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  color: @cyan;
+  text-shadow: none;
+}
+
+.time {
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  color: @fg;
+  text-shadow: none;
+  margin-right: 18px;
+}
+
+.body {
+  font-size: 15px;
+  font-weight: 400;
+  background: transparent;
+  color: @fg;
+  text-shadow: none;
+}
+
+.control-center {
+  background: @bg;
+  border: 2px solid @cyan;
+}
+
+.widget-title {
+  color: @blue;
+  background: @bgDark;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.widget-title>button {
+  font-size: 1rem;
+  color: @fg;
+  background: @bg;
+  box-shadow: none;
+}
+
+.widget-title>button:hover {
+  background: @red;
+  color: @bg;
+}
+
+.widget-dnd {
+  background: @bgDark;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  font-size: large;
+  color: @blue;
+}
+
+.widget-dnd>switch {
+  background: @blue;
+  border-radius: 0;
+}
+
+.widget-dnd>switch:checked {
+  background: @red;
+  border: 1px solid @red;
+}
+
+.widget-label>label {
+  font-size: 1rem;
+  color: @fg;
+  margin: 10px;
+}
+
+.widget-buttons-grid {
+  font-size: x-large;
+  padding: 5px;
+  margin: 0px 10px 10px 10px;
+  background: @bg;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button {
+  margin: 3px;
+  padding: 4px 30px;
+  background: @bg;
+  color: @fg;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+  background: @blue;
+  color: 2bg;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:checked {
+  background: @cyan;
+  color: @bg;
+}
+
+.widget-volume,
+.widget-backlight {
+  background: @bgDark;
+  padding: 5px;
+  margin: 5px 10px;
+  font-size: 2rem;
+  color: @blue;
+}
+
+.widget-mpris {
+  color: @fg;
+  background: @bgDark;
+  margin: 0px 10px 10px 10px;
+  box-shadow: none;
+}
+
+.widget-mpris>box>button,
+.widget-mpris-player,
+.widget-mpris-album-art {
+  border-radius: 0;
+  box-shadow: none;
+  margin: 10px;
+}
+
+picture.mpris-background {
+  opacity: 0;
+}
+
+.notification-action>button {
+  color: @text-color;
+  border-radius: 0px;
+}
+
+.notification-action>button:hover {
+  background-color: @cyan;
+  color: @bg;
+}
