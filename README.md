@@ -1,15 +1,8 @@
-# Tony-BTW MangoWC Config Improved
-*credit to tony for making the original config for rofi, mango, foot and nvim*
-
-## THESE ARE NOT BEGINNER FRIENDLY DOTFILES, ANY PROBLEMS ARE ON YOU
+## Dotfiles
+THESE ARE NOT BEGINNER FRIENDLY, ANY PROBLEMS ARE ON YOU
 
 ## What is the difference
 ##### These dotfiles provide a less barebones experience where you dont need to clone 20 repos to make your compositor feel complete
-
-## Features
-##### Bash prompt & sysfetch autostart without stuff like oh-my-zsh or oh-my-posh (hand copied from tony-btw)
-##### Nvim, Waybar, Nitch, fastfetch and mangowc configuration
-##### Tokyonight theme out of the box
 
 ## Installation
 #### Install and Enable Dependencies
