@@ -1,6 +1,8 @@
 # Tony-BTW MangoWC Config Improved
 *credit to tony for making the original config for rofi, mango, foot and nvim*
 
+## THESE ARE NOT BEGINNER FRIENDLY DOTFILES, ANY PROBLEMS ARE ON YOU
+
 ## What is the difference
 ##### These dotfiles provide a less barebones experience where you dont need to clone 20 repos to make your compositor feel complete
 
@@ -11,8 +13,10 @@
 
 ## Installation
 #### Install and Enable Dependencies
-##### ARCH ONLY, REQUIRES YAY
+#### Use the provided nix files, BUT CHANGE THEM TO YOUR NEED LIKE THE USER, HOSTNAME, ETS
 
+*outdated, dont use this please*
+*ARCH ONLY, REQUIRES YAY*
 *yay -S mangowm-git grim slurp swaybg xdg-desktop-portal xdg-desktop-portal-wlr rofi waybar wl-clipboard dolphin nwg-look wlogout foot ttf-jetbrains-mono-nerd nvim brightnessctl bluetui bluez bluez-utils pulsemixer pipewire pipewire-pulse nvim fastfetch && systemctl --user --now enable pipewire wireplumber && sudo systemctl enable bluetooth && mango*
 
 ##### Copy files into their destinations
@@ -29,4 +33,4 @@
 ##### Super + J/K, move focus between apps
 ##### Super + T, return to tiling mode (no matter which one you are on currently)
 
-*im not responsible for any damage done by faulty installations, updates or anything else. everything you do is at your own risk*
+*im not responsible for any destroyed systems,faulty updates or anything else. everything you do is at your own risk*
