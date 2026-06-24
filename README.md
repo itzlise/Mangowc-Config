@@ -13,14 +13,9 @@
 
 ## Installation
 #### Install and Enable Dependencies
-#### Use the provided nix files, BUT CHANGE THEM TO YOUR NEED LIKE THE USER, HOSTNAME, ETS
-
-*outdated, dont use this please*
-*ARCH ONLY, REQUIRES YAY*
-*yay -S mangowm-git grim slurp swaybg xdg-desktop-portal xdg-desktop-portal-wlr rofi waybar wl-clipboard dolphin nwg-look wlogout foot ttf-jetbrains-mono-nerd nvim brightnessctl bluetui bluez bluez-utils pulsemixer pipewire pipewire-pulse nvim fastfetch && systemctl --user --now enable pipewire wireplumber && sudo systemctl enable bluetooth && mango*
-
+#### Use the provided nix files, BUT CHANGE THEM TO YOUR NEEDS LIKE THE USER, HOSTNAME, ETC
 ##### Copy files into their destinations
-##### if you use zsh or fish, switch to bash
+### done!
 
 ## Base Keybinds
 ##### Super + Return, foot terminal
@@ -32,5 +27,7 @@
 ##### Super + Shift + F, toggle Fullscreen 
 ##### Super + J/K, move focus between apps
 ##### Super + T, return to tiling mode (no matter which one you are on currently)
+##### Super + X, return to scrolling mode (no matter which one you are on currently)
+##### Super + A, toggle borders 
 
 *im not responsible for any destroyed systems,faulty updates or anything else. everything you do is at your own risk*
